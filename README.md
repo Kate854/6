@@ -33,4 +33,4 @@ npm run dev
 
 ## GitHub Pages
 
-Файл `docs/index.html` предназначен для GitHub Pages: Settings → Pages → Deploy from a branch → main → /docs. Ожидаемый адрес после успешной публикации: https://kate854.github.io/6/ . Это не подтверждение публикации; статус доступности следует проверить после включения Pages.
+Сайт опубликован: https://kate854.github.io/6/ . Исходники находятся в `main`, автономная версия сайта — в ветке `gh-pages` в корне. Успешная публикация подтверждена GitHub Pages: https://github.com/Kate854/6/actions/runs/42212643043 . Прямой HTTP-запрос к github.io из этой облачной среды ограничен сетевой политикой; версия приложения проверена локально в production-сборке. Для обновления сайта нужно обновлять также `index.html` в ветке `gh-pages`.
